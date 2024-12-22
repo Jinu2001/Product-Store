@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Product from "../../models/product.model.js";
+import Product from "../models/product.model.js";
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
